@@ -9,7 +9,7 @@ scrape_configs:
   - job_name: 'agent_release'
     scheme: http
     static_configs:
-      - targets: ['orijins-livekit-agent-release.railway.internal:8000']
+      - targets: ['orijins-livekit-agent-release.railway.internal:9091']
 
   #  ? TODO: add your services here
   # - job_name: 'your-job-name'
